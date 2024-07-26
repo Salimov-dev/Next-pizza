@@ -4,3 +4,5 @@ export { Title } from "./title";
 export { Categories } from "./categories";
 export { SortPopup } from "./sort-popup";
 export { TopBar } from "./topbar";
+export { FilterCheckbox } from "./filter-checkbox";
+export { Filters } from "./filters";
