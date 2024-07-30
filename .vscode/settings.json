@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["Комбо", "clsx", "lucide", "topbar"]
+  "cSpell.words": [
+    "Комбо",
+    "autoincrement",
+    "clsx",
+    "datasource",
+    "lucide",
+    "topbar",
+    "zustand"
+  ]
 }

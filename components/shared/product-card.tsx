@@ -10,7 +10,7 @@ interface Props {
   name: string;
   price: number;
   imageUrl: string;
-  ingredients: Ingredient[];
+  //   ingredients: Ingredient[];
   className?: string;
 }
 

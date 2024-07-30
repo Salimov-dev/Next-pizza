@@ -35,6 +35,108 @@ export default function Home() {
                     imageUrl:
                       "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
                     items: [{ price: 550 }]
+                  },
+                  {
+                    id: 2,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 3,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 4,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 5,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 6,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 7,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  }
+                ]}
+              />
+              <ProductsGroupList
+                title="Комбо"
+                categoryId={2}
+                items={[
+                  {
+                    id: 8,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 9,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 10,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 11,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 12,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
+                  },
+                  {
+                    id: 13,
+                    name: "Чизбургер-пицца",
+                    price: 550,
+                    imageUrl:
+                      "https://dostavka-est.ru/wp-content/uploads/2021/01/common-4764.jpeg",
+                    items: [{ price: 550 }]
                   }
                 ]}
               />
