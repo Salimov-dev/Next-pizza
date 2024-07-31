@@ -1,8 +1,19 @@
 import { prisma } from "@/prisma/prisma-client";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function GET() {
-  const ingredients = await prisma.ingredient.findMany();
+export async function GET(req: NextRequest) {
+  const query = req.nextUrl.searchParams.get("query") || "";
+  console.log("query", query);
 
-  return NextResponse.json(ingredients);
+  const products = await prisma.product.findMany({
+    where: {
+      name: {
+        contains: query,
+        mode: "insensitive"
+      }
+    },
+    take: 5
+  });
+
+  return NextResponse.json(products);
 }
